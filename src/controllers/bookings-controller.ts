@@ -42,7 +42,6 @@ export async function updateBooking(req: AuthenticatedRequest, res: Response) {
   const { roomId } = req.body;
   const newBookingId = req.params.bookingId;
   const bookingId = Number(newBookingId);
-  console.log(bookingId);
   if( isNaN(roomId) || roomId <= 0 ||isNaN(bookingId) || bookingId <= 0 ) {
     return res.sendStatus(httpStatus.BAD_REQUEST);
   }

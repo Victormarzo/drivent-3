@@ -1,7 +1,7 @@
 import bookingsRepository from "@/repositories/bookings-repository.ts";
 import enrollmentRepository from "@/repositories/enrollment-repository";
 import ticketRepository from "@/repositories/ticket-repository";
-import { forbiddenError, notFoundError, unauthorizedError  } from "@/errors";
+import { forbiddenError, notFoundError } from "@/errors";
 import hotelRepository from "@/repositories/hotel-repository";
 
 async function preBookingCheck(userId: number, roomId: number) {
@@ -20,7 +20,6 @@ async function preBookingCheck(userId: number, roomId: number) {
 
 async function checkBooking(userId: number) {
   const booking = await bookingsRepository.checkBooking(userId);
-  console.log(booking);
   return booking;
 }
 

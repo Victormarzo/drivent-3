@@ -442,7 +442,7 @@ describe("PUT /booking", () => {
       const room = await createUnitaryRoom(hotel.id);
       const room2 = await createUnitaryRoom(hotel.id);
       const body = { roomId: room.id };
-      const booking = await createBooking(user.id, room.id);
+      await createBooking(user.id, room.id);
       const booking2 = await createBooking(user2.id, room2.id);
       const response = await server.put(`/booking/${booking2.id}`).set("Authorization", `Bearer ${token}`).send(body);
       expect(response.status).toEqual(httpStatus.FORBIDDEN);
@@ -468,7 +468,7 @@ describe("PUT /booking", () => {
       const ticket = await createTicket(enrollment.id, ticketType.id, TicketStatus.PAID);
       await createPayment(ticket.id, ticketType.price);
       const hotel = await createHotel();
-      const room = await createUnitaryRoom(hotel.id);
+      await createUnitaryRoom(hotel.id);
       const body = { roomId: faker.random.numeric(10) };
       const response = await server.put("/booking/1").set("Authorization", `Bearer ${token}`).send(body);
       expect(response.status).toEqual(httpStatus.NOT_FOUND);
@@ -489,7 +489,7 @@ describe("PUT /booking", () => {
       const room2 = await createUnitaryRoom(hotel.id);
       const body = { roomId: room2.id };
       const booking = await createBooking(user.id, room.id);
-      const booking2 = await createBooking(user2.id, room2.id);
+      await createBooking(user2.id, room2.id);
       const response = await server.put(`/booking/${booking.id}`).set("Authorization", `Bearer ${token}`).send(body);
       expect(response.status).toEqual(httpStatus.FORBIDDEN);
     });
