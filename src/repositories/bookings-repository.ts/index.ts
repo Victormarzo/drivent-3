@@ -1,6 +1,6 @@
 import { prisma } from "@/config";
 
-async function postBooking(roomId: number, userId: number) {
+async function postBooking(userId: number, roomId: number) {
   return prisma.booking.create({
     data: {
       userId,
@@ -30,10 +30,23 @@ async function checkBooking(userId: number) {
   });
 }
 
+async function updateBooking(roomId: number, bookingId: number ) {
+  return prisma.booking.update({
+    
+    data: {
+      roomId
+    },
+    where: {
+      id: bookingId,
+    },
+  });
+}
+
 const bookingsRepository = {
   postBooking,
   checkVacancy,
-  checkBooking
+  checkBooking,
+  updateBooking
 };
 
 export default bookingsRepository;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1669992496825" clover="3.2.0">
-  <project timestamp="1669992496825" name="All files">
-    <metrics statements="554" coveredstatements="492" conditionals="75" coveredconditionals="42" methods="90" coveredmethods="79" elements="719" coveredelements="613" complexity="0" loc="554" ncloc="554" packages="25" files="62" classes="62"/>
+<coverage generated="1670193126281" clover="3.2.0">
+  <project timestamp="1670193126281" name="All files">
+    <metrics statements="602" coveredstatements="565" conditionals="86" coveredconditionals="63" methods="99" coveredmethods="91" elements="787" coveredelements="719" complexity="0" loc="602" ncloc="602" packages="26" files="64" classes="64"/>
     <package name="src">
       <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <file name="app.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/app.ts">
@@ -59,7 +59,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="126" coveredstatements="114" conditionals="14" coveredconditionals="9" methods="14" coveredmethods="13"/>
+      <metrics statements="147" coveredstatements="142" conditionals="21" coveredconditionals="19" methods="15" coveredmethods="15"/>
       <file name="authentication-controller.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/controllers/authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
@@ -72,20 +72,41 @@
         <line num="12" count="2" type="stmt"/>
       </file>
       <file name="bookings-controller.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/controllers/bookings-controller.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="11" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
+        <metrics statements="23" coveredstatements="23" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="cond" truecount="3" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/controllers/enrollments-controller.ts">
-        <metrics statements="20" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="18" count="11" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
@@ -110,16 +131,16 @@
         <line num="10" count="1" type="stmt"/>
       </file>
       <file name="hotel-controller.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/controllers/hotel-controller.ts">
-        <metrics statements="21" coveredstatements="19" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <metrics statements="21" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
         <line num="21" count="5" type="stmt"/>
@@ -176,50 +197,50 @@
         <line num="50" count="1" type="stmt"/>
       </file>
       <file name="tickets-controller.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/controllers/tickets-controller.ts">
-        <metrics statements="22" coveredstatements="19" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="22" coveredstatements="21" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="16" count="11" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="34" count="3" type="cond" truecount="0" falsecount="1"/>
-        <line num="35" count="0" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="34" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
         <line num="39" count="3" type="stmt"/>
         <line num="41" count="2" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
       <file name="users-controller.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/controllers/users-controller.ts">
-        <metrics statements="10" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
         <line num="8" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="15" count="6" type="cond" truecount="0" falsecount="1"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="23" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6"/>
+      <metrics statements="26" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7"/>
       <file name="cannot-enroll-before-start-date-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
       <file name="cannot-list-hotels-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/cannot-list-hotels-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -231,8 +252,13 @@
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
+      <file name="forbidden-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/forbidden-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+      </file>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/index.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -240,6 +266,7 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
       </file>
       <file name="invalid-data-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/invalid-data-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -254,7 +281,7 @@
       <file name="not-found-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -264,11 +291,11 @@
       <file name="unauthorized-error.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="36" type="stmt"/>
+        <line num="4" count="35" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="45" coveredstatements="39" conditionals="12" coveredconditionals="6" methods="8" coveredmethods="7"/>
+      <metrics statements="45" coveredstatements="32" conditionals="12" coveredconditionals="4" methods="8" coveredmethods="6"/>
       <file name="authentication-middleware.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/middlewares/authentication-middleware.ts">
         <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
@@ -276,35 +303,35 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="68" type="stmt"/>
-        <line num="10" count="68" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="58" type="stmt"/>
-        <line num="13" count="58" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="58" type="stmt"/>
-        <line num="16" count="58" type="stmt"/>
-        <line num="18" count="48" type="stmt"/>
-        <line num="23" count="48" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="34" type="stmt"/>
-        <line num="27" count="34" type="stmt"/>
-        <line num="29" count="10" type="stmt"/>
-        <line num="34" count="34" type="stmt"/>
+        <line num="9" count="84" type="stmt"/>
+        <line num="10" count="84" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="73" type="stmt"/>
+        <line num="13" count="73" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="73" type="stmt"/>
+        <line num="16" count="73" type="stmt"/>
+        <line num="18" count="62" type="stmt"/>
+        <line num="23" count="62" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="51" type="stmt"/>
+        <line num="27" count="51" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="34" count="33" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/middlewares/error-handling-middleware.ts">
-        <metrics statements="14" coveredstatements="9" conditionals="7" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="14" coveredstatements="2" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="6" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
-        <line num="12" count="4" type="cond" truecount="2" falsecount="1"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="3"/>
         <line num="13" count="0" type="stmt"/>
-        <line num="18" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="24" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="30" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="37" count="4" type="stmt"/>
-        <line num="38" count="4" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/middlewares/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -337,12 +364,24 @@
         <line num="24" count="11" type="stmt"/>
       </file>
     </package>
+    <package name="src.repositories.bookings-repository.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/repositories/bookings-repository.ts/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="39" count="11" type="stmt"/>
+      </file>
+    </package>
     <package name="src.repositories.enrollment-repository">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/repositories/enrollment-repository/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="13" type="stmt"/>
+        <line num="5" count="30" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
@@ -360,14 +399,15 @@
       </file>
     </package>
     <package name="src.repositories.hotel-repository">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/repositories/hotel-repository/index.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
-        <line num="18" count="11" type="stmt"/>
-        <line num="23" count="11" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="32" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.payment-repository">
@@ -397,10 +437,10 @@
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="9" count="8" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="30" count="8" type="stmt"/>
+        <line num="30" count="22" type="stmt"/>
         <line num="41" count="2" type="stmt"/>
         <line num="49" count="3" type="stmt"/>
         <line num="61" count="11" type="stmt"/>
@@ -412,11 +452,11 @@
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/repositories/user-repository/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="12" type="stmt"/>
-        <line num="11" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="11" count="16" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="9" type="stmt"/>
-        <line num="15" count="12" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
         <line num="24" count="11" type="stmt"/>
         <line num="29" count="11" type="stmt"/>
       </file>
@@ -596,31 +636,48 @@
       </file>
     </package>
     <package name="src.services.bookings-service">
-      <metrics statements="16" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="33" coveredstatements="33" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/services/bookings-service/index.ts">
-        <metrics statements="16" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="5"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
+        <metrics statements="33" coveredstatements="33" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="13" type="stmt"/>
+        <line num="30" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="34" count="11" type="cond" truecount="5" falsecount="0"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="11" type="stmt"/>
+        <line num="63" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.enrollments-service">
-      <metrics statements="28" coveredstatements="22" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
+      <metrics statements="28" coveredstatements="27" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/services/enrollments-service/index.ts">
-        <metrics statements="28" coveredstatements="22" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
+        <metrics statements="28" coveredstatements="27" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -634,11 +691,11 @@
         <line num="32" count="3" type="stmt"/>
         <line num="36" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="52" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="54" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="54" count="1" type="stmt"/>
         <line num="60" count="2" type="stmt"/>
         <line num="61" count="2" type="stmt"/>
         <line num="65" count="2" type="stmt"/>
@@ -664,10 +721,10 @@
         <line num="11" count="1" type="stmt"/>
         <line num="17" count="9" type="stmt"/>
         <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="4" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="11" type="stmt"/>
         <line num="32" count="11" type="stmt"/>
       </file>
@@ -681,15 +738,15 @@
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="9" count="7" type="stmt"/>
-        <line num="10" count="7" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="16" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="16" count="7" type="cond" truecount="5" falsecount="0"/>
         <line num="17" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
         <line num="29" count="5" type="stmt"/>
         <line num="30" count="3" type="stmt"/>
         <line num="32" count="3" type="cond" truecount="1" falsecount="0"/>
@@ -729,24 +786,24 @@
       </file>
     </package>
     <package name="src.services.tickets-service">
-      <metrics statements="24" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="24" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/services/tickets-service/index.ts">
-        <metrics statements="24" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="24" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
         <line num="30" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="31" count="1" type="stmt"/>
@@ -763,7 +820,7 @@
       <file name="errors.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/services/users-service/errors.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/services/users-service/index.ts">
         <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
@@ -774,15 +831,15 @@
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
         <line num="9" count="9" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="22" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="22" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
         <line num="28" count="9" type="stmt"/>
         <line num="29" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="6" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
         <line num="40" count="11" type="stmt"/>
         <line num="41" count="11" type="stmt"/>
@@ -800,10 +857,10 @@
       <file name="prisma-utils.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="11" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
       </file>
       <file name="request.ts" path="/home/victormarzo/Documents/Driven/Fase 1/calvs-drivent3/calvs-drivent/src/utils/request.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
